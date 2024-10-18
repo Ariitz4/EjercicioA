@@ -17,7 +17,7 @@ import java.io.IOException;
 public class HelloApplication extends Application {
 
     /**
-     * Método principal de inicio de la aplicación.
+     * Procedimiento principal de inicio de la aplicación.
      * Carga el archivo FXML y configura la escena en la ventana.
      *
      * @param stage la ventana principal de la aplicación
@@ -33,7 +33,6 @@ public class HelloApplication extends Application {
 
         // Establece el título de la ventana
         stage.setTitle("Encuesta");
-
         // Asigna la escena al escenario principal
         stage.setScene(scene);
 
@@ -46,7 +45,7 @@ public class HelloApplication extends Application {
     }
 
     /**
-     * Método main, punto de entrada de la aplicación.
+     * Procedimiento main, punto de entrada de la aplicación.
      *
      * @param args argumentos de la línea de comandos
      */

@@ -65,7 +65,7 @@ public class HelloController implements Initializable {
     private Slider sliderCompra;
 
     /**
-     * Método de inicialización, llamado al cargar la interfaz.
+     * Procedimiento de inicialización, llamado al cargar la interfaz.
      * Asigna valores iniciales a los componentes y define los eventos.
      *
      * @param url
